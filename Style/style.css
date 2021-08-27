@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 html {
@@ -78,5 +79,20 @@ a {
 .alinhamento {
     display: flex;
     justify-content: center;
+}
+
+
+@media (max-width: 540px) {
+    .alinhamento img {
+        width: 100%;
+        margin: 0 auto;
+        top: 20%;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .containerT {
+        margin-top: 5rem;
+    }
 }
 
